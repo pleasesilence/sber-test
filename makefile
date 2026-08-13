@@ -6,4 +6,4 @@ help:
 
 run-unit-tests:
 	@echo "running unit-tests..."
-	cd backend && pytest tests/ -v
+	docker compose exec backend pytest tests

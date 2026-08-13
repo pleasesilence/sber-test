@@ -4,7 +4,7 @@ services:
     restart: unless-stopped
     build:
       context: ./backend
-      target: dev
+      target: build
     environment:
       IP_TTL: 60
     expose:
